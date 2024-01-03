@@ -4,6 +4,10 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
+*:focus{
+  outline: 2px dotted orange;
+  outline-offset: 2px;
+}
 .nav-header{
   display: flex;
   align-items: center;
