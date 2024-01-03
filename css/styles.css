@@ -21,6 +21,10 @@ line-height: normal;
 letter-spacing: 1px;
 text-transform: uppercase;
 text-decoration: none;
+transition: 0.4s ease;
+}
+.nav-link:hover{
+ color: #FF7500;
 }
 .main-link{
 background-color: #FF7500;
@@ -31,7 +35,14 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.5px;
 text-decoration: none;
+transition: 0.4s ease;
 }
+.main-link:hover{
+ background-color: #FF7500;
+ opacity: 0.8;
+}
+
+
 .hero{
   display: flex;
   align-items: center;
@@ -138,6 +149,16 @@ background-color: #FFF;
 }
 .site-footer-list{
   display: flex;
+  transition: 0.4s ease;
+}
+.site-footer-list a{
+  color: #FF7500;
+}
+.site-footer-list a:hover{
+ color: #000;
+}
+.site-footer-list a:active{
+  opacity: 0.8;
 }
 .footer-hr{
 width: 1100px;
@@ -149,7 +170,6 @@ background: rgba(37, 36, 32, 0.50);
   justify-content: space-between;
 }
 .footer-links{
-
   width: 224px;
 }
 .footer-links a{
@@ -159,4 +179,11 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration: none;
+transition: 0.4s ease;
+}
+.footer-links a:hover{
+  color: #FF7500;
+}
+.footer-links a:active{
+  opacity: 0.8;
 }
