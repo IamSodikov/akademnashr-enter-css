@@ -1,8 +1,13 @@
+body{
+  font-family: "Roboto", "Arial" sans-serif;
+}
 .site-header{
+border-top:5px orange solid ;
 background-color: #FFF;
 display: flex;
 align-items: center;
 justify-content: space-between;
+padding: 16px 170px;
 }
 *:focus{
   outline: 2px dotted orange;
@@ -40,6 +45,8 @@ line-height: normal;
 letter-spacing: 0.5px;
 text-decoration: none;
 transition: 0.4s ease;
+padding: 12px 24px;
+border-radius: 4px;
 }
 .main-link:hover{
  background-color: #FF7500;
@@ -48,6 +55,8 @@ transition: 0.4s ease;
 
 
 .hero{
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -56,6 +65,7 @@ transition: 0.4s ease;
 .hr{
 width: 80px;
 height: 3px;
+border: none;
 background-color:#FF7500;;
 }
 .hero-content{
@@ -64,15 +74,18 @@ background-color:#FF7500;;
   color: #FFF;
 }
 .hero-img{
+border-radius: 8px;
 width: 510px;
 height: 510px;
 }
 .features{
+padding-top: 210px;
+padding-bottom: 210px;
 background-color: #FFF;
 }
 .features-head{
   color: #000;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed" sans-serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
@@ -86,13 +99,17 @@ background-color: #FFF;
   list-style: none;
 }
 .features-icon{
-width: 56px;
-height: 56px;
-background-color: rgba(255, 117, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  background-color: rgba(255, 117, 0, 0.2);
 }
 .features-content{
   color: #000;
-  font-family:"Robot Condensed", sans-serif;
+  font-family:"Robot Condensed" sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -101,7 +118,7 @@ background-color: rgba(255, 117, 0, 0.2);
   letter-spacing: 0.5px;
 }
 .features-paragraph{
-color: #000;
+  color: #000;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -114,10 +131,11 @@ color: #000;
   justify-content: space-between;
   align-items: center;
   background-color: #252420;
+  border-radius: 12px;
 }
 .promo-heading{
   color: #FFF;
-  font-family:"Roboto Condensed", sans-serif;
+  font-family:"Roboto Condensed" sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -126,7 +144,6 @@ color: #000;
   letter-spacing: 0.5px;
 }
 .promo-info{
-
   color: #FFF;
   font-size: 16px;
   font-style: normal;
@@ -136,6 +153,7 @@ color: #000;
   letter-spacing: 0.5px;
 }
 .promo-img{
+border-radius:12px;
 width: 440px;
 height: 440px;
 }
@@ -152,6 +170,7 @@ background-color: #FFF;
   list-style: none;
 }
 .site-footer-list{
+  padding: none;
   display: flex;
   transition: 0.4s ease;
 }
@@ -167,9 +186,11 @@ background-color: #FFF;
 .footer-hr{
 width: 1100px;
 height: 2px;
+border: none;
 background: rgba(37, 36, 32, 0.50);
 }
 .footer-links-end{
+  padding: none;
   display: flex;
   justify-content: space-between;
 }
