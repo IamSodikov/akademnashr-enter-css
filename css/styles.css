@@ -222,6 +222,7 @@ margin-right: 0;
   transition: 0.4s ease;
 }
 .site-footer-list a{
+  display: block;
   color: #FF7500;
 }
 .site-footer-list a:hover{
@@ -229,6 +230,9 @@ margin-right: 0;
 }
 .site-footer-list a:active{
   opacity: 0.8;
+}
+.site-footer-list svg{
+  display: block;
 }
 .footer-hr{
 margin: 0;
